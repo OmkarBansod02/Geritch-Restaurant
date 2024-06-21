@@ -41,7 +41,7 @@ A fully responsive restaurant website with a table booking system where customer
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/your-username/restaurant-website.git
+   git clone https://github.com/OmkarBansod02/Geritch-Restaurant.git
    cd restaurant-website
 
 2. Navigate to the backend directory and install dependencies
