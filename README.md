@@ -84,7 +84,7 @@ Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
 
 Contact
-For any questions or inquiries, please contact your-omkarbansod221@gmail.com.
+For any questions or inquiries, please contact omkarbansod221@gmail.com.
 
 
 
