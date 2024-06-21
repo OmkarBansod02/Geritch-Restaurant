@@ -1,0 +1,154 @@
+/* Reservation.css */
+:root {
+    --color-golden: #daa520;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --font-base: 'Arial', sans-serif;
+  }
+  
+  .app__res {
+    padding: 2rem 4rem;
+    border: 1px solid var(--color-golden);
+    background: var(--color-black);
+  }
+
+
+  .app__res-heading {
+    text-align: center;
+    margin-bottom: 2rem;
+    
+  }
+  .app__sub-heading{
+    color: var(--color-white);
+    font-size: 2.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  h1 {
+    color: var(--color-golden);
+    font-size: 3.5rem;
+    margin: 0.9rem 0;
+  }
+  
+  .app__res-heading p {
+    color: var(--color-white);
+    font-size: 1.1rem;
+  }
+  
+  .app__name-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  
+  .app__name-input form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 620px;
+  }
+  
+  .app__name-input input {
+    width: 100%;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+  }
+  
+  .date-time-input {
+    width: 100%;
+    border: 1px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin: 0.5rem 0;
+    padding: 0.75rem 1rem;
+    background: var(--color-black);
+  }
+
+.date-time-input::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+  
+  .app__name-input button {
+    width: max-content;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    background: var(--color-golden);
+    color: var(--color-black);
+    font-size: 1rem;
+    font-family: var(--font-base);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .app__name-input button:hover {
+    background: var(--color-white);
+    color: var(--color-black);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .app__res {
+      padding: 1.5rem 2rem;
+    }
+  
+    .app__res-heading h1 {
+      font-size: 2rem;
+    }
+  
+    .app__res-heading p {
+      font-size: 1rem;
+    }
+  
+    .app__name-input form {
+      max-width: 100%;
+    }
+  
+    .app__name-input input,
+    .date-time-input {
+      font-size: 0.9rem;
+      padding: 0.5rem 0.75rem;
+    }
+  
+    .app__name-input button {
+      font-size: 0.9rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .app__res {
+      padding: 1rem 1.5rem;
+    }
+  
+    .app__res-heading h1 {
+      font-size: 1.5rem;
+    }
+  
+    .app__res-heading p {
+      font-size: 0.9rem;
+    }
+  
+    .app__name-input input,
+    .date-time-input {
+      font-size: 0.8rem;
+      padding: 0.5rem;
+    }
+  
+    .app__name-input button {
+      font-size: 0.8rem;
+      padding: 0.5rem 0.75rem;
+    }
+  }
+  
